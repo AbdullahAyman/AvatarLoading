@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <tps.com.avatarpro.viewComponents.AvatarView
+        android:id="@+id/main_avatarImg"
+        android:layout_width="@dimen/dimen_100dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:src="@drawable/ic_ninja"
+        app:backgroundRingColor="@color/av_ring_bg"
+        app:backgroundRingSize="@dimen/dimen_2dp"
+        app:gradientFactor="0.5"
+        app:joinGradient="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:max="100"
+        app:progress="0"
+        app:progressRingColor="@color/av_ring"
+        app:progressRingCorner="ROUND"
+        app:progressRingOutline="true"
+        app:progressRingSize="@dimen/dimen_2dp" />
+
+    <Button
+        android:id="@+id/main_loadBtn"
+        style="@style/fontMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_load_avatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_avatarImg" />
+
+</android.support.constraint.ConstraintLayout>

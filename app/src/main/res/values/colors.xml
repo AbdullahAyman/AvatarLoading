@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="av_default_border">@android:color/white</color>
+    <color name="av_bitmap_background_color">#424242</color>
+
+
+    <color name="color_black">#000000</color>
+
+    <color name="color_purple_100">#2c5100f3</color>
+    <color name="color_purple_600">#fb5100f3</color>
+
+    <!--Avatar colors-->
+    <color name="av_ring_bg">@color/color_purple_100</color>
+    <color name="av_ring">@color/color_purple_600</color>
+</resources>
